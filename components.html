@@ -1,0 +1,147 @@
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/PdN6yGTXNBM
+-->
+
+<style>h1, h2, h3, h4, h5, h6 { font-family: 'Inter', sans-serif; --font-sans: 'Inter'; }
+</style>
+<style>body { font-family: 'Inter', sans-serif; --font-sans: 'Inter'; }
+</style>
+<div class="flex flex-col min-h-[100dvh]">
+  <header class="bg-gray-900 text-white py-4 px-6 flex items-center justify-between">
+    <a class="flex items-center gap-2" href="#">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="h-6 w-6"
+      >
+        <circle cx="8" cy="9" r="2"></circle>
+        <path d="m9 17 6.1-6.1a2 2 0 0 1 2.81.01L22 15V5a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2"></path>
+        <path d="M8 21h8"></path>
+        <path d="M12 17v4"></path>
+      </svg>
+      <span class="text-xl font-bold">Wallpapers</span>
+    </a>
+    <nav class="flex items-center gap-4">
+      <a class="hover:underline" href="#">
+        Explore
+      </a>
+      <a class="hover:underline" href="#">
+        Categories
+      </a>
+      <a class="hover:underline" href="#">
+        Trending
+      </a>
+      <a class="hover:underline" href="#">
+        Upload
+      </a>
+    </nav>
+    <div class="flex items-center gap-4">
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:text-accent-foreground h-10 px-4 py-2 text-white hover:bg-gray-800">
+        Sign In
+      </button>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white">
+        Sign Up
+      </button>
+    </div>
+  </header>
+  <main class="flex-1">
+    <section class="bg-gray-900 text-white py-20 px-6 md:px-12 lg:px-20 flex flex-col items-center justify-center">
+      <h1 class="text-4xl font-bold mb-4 text-center">Discover the Perfect Wallpaper</h1>
+      <p class="text-lg mb-8 text-center">
+        Explore our vast collection of high-quality wallpapers for your devices.
+      </p>
+      <div class="w-full max-w-3xl">
+        <form class="flex items-center bg-white rounded-full overflow-hidden">
+          <input
+            class="flex h-10 w-full rounded-md border border-input bg-background text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 flex-1 px-6 py-4 text-gray-900 focus:outline-none"
+            placeholder="Search for wallpapers..."
+            type="text"
+          />
+          <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-blue-500 hover:bg-blue-600 text-white px-6 py-4 rounded-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="h-6 w-6"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </section>
+    <section class="py-12 px-6 md:px-12 lg:px-20">
+      <div class="flex items-center justify-between mb-8">
+        <h2 class="text-2xl font-bold">Trending Wallpapers</h2>
+        <a class="text-blue-500 hover:underline" href="#">
+          See more
+        </a>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+    </section>
+    <section class="bg-gray-100 py-12 px-6 md:px-12 lg:px-20">
+      <div class="flex items-center justify-between mb-8">
+        <h2 class="text-2xl font-bold">Explore by Category</h2>
+        <a class="text-blue-500 hover:underline" href="#">
+          See more
+        </a>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+    </section>
+  </main>
+  <footer class="bg-gray-900 text-white py-6 px-6 md:px-12 lg:px-20 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="h-6 w-6"
+      >
+        <circle cx="8" cy="9" r="2"></circle>
+        <path d="m9 17 6.1-6.1a2 2 0 0 1 2.81.01L22 15V5a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2"></path>
+        <path d="M8 21h8"></path>
+        <path d="M12 17v4"></path>
+      </svg>
+      <span class="text-lg font-bold">Wallpapers</span>
+    </div>
+    <nav class="flex items-center gap-4">
+      <a class="hover:underline" href="#">
+        Home
+      </a>
+      <a class="hover:underline" href="#">
+        Explore
+      </a>
+      <a class="hover:underline" href="#">
+        Categories
+      </a>
+      <a class="hover:underline" href="#">
+        Trending
+      </a>
+      <a class="hover:underline" href="#">
+        Upload
+      </a>
+    </nav>
+    <div class="text-sm text-gray-400">© 2024 Wallpapers. All rights reserved.</div>
+  </footer>
+</div>
