@@ -1,0 +1,10 @@
+body {
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* Additional styles from Component.jsx */
+/* Feel free to copy relevant styles from Component.jsx to styles.css */
