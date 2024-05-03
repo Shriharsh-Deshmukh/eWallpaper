@@ -1,4 +1,4 @@
-@anish-bansode (pls check)
+@github.com/anish-bansode
 # Basic outline:
 
 ### Navigation Bar:
