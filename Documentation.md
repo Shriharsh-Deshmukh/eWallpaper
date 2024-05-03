@@ -1,4 +1,4 @@
-Sure, here's a basic outline for the interface of the "eWallpaper" website:
+###Basic outline:
 
 ### Navigation Bar:
 - **Home:** Landing page featuring popular wallpapers based on downloads.
