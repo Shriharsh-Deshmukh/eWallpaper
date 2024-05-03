@@ -1,4 +1,4 @@
-###Basic outline:
+# Basic outline:
 
 ### Navigation Bar:
 - **Home:** Landing page featuring popular wallpapers based on downloads.
@@ -52,4 +52,4 @@
 - **Smooth Transitions:** Seamless transition between pages and interactions.
 - **Footer:** Includes essential links and copyright information.
 
-Implementing these elements should help create a fast, user-friendly, and visually appealing interface for the "eWallpaper" website.
+This should be fast, user-friendly, and visually appealing interface.
